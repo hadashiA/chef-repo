@@ -13,4 +13,7 @@ site 'http://community.opscode.com/api/v1'
 # cookbook 'postgresql',
 #   :git => 'https://github.com/findsyou/cookbooks',
 #   :ref => 'postgresql-improvements'
+cookbook 'zsh'
+cookbook 'vim'
 cookbook 'rbenv'
+cookbook 'ruby_build'

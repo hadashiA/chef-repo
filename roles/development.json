@@ -1,0 +1,27 @@
+{
+  "name": "development",
+  "description": "",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "rbenv": {
+      "rubies": ["1.9.3-p327", "2.0.0-dev"]
+    },
+    "gems": {
+      "1.9.3-p327": [
+        { "name": "bundler" }
+      ],
+      "2.0.0-dev": [
+        { "name": "bundler" }
+      ]
+    }
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[sample]",
+    "recipe[rbenv::system]"
+  ],
+  "env_run_lists": {
+  }
+}
