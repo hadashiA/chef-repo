@@ -21,7 +21,6 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[user::data_bag]",
     "recipe[rbenv]",
     "recipe[rbenv::ruby_build]"
   ],

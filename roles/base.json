@@ -18,6 +18,7 @@
   },
   "chef_type": "role",
   "run_list": [
+    "recipe[user::data_bag]",
     "recipe[build-essential]",
     "recipe[git]",
     "recipe[zsh]",
