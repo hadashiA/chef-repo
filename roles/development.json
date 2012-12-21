@@ -4,7 +4,9 @@
   "json_class": "Chef::Role",
   "default_attributes": {
     "rbenv": {
-      "rubies": ["1.9.3-p327", "2.0.0-dev"]
+      "install_prefix": "/usr/local",
+      "rubies": ["1.9.3-p327", "2.0.0-dev"],
+      "global": "1.9.3-p327"
     },
     "gems": {
       "1.9.3-p327": [
@@ -20,7 +22,8 @@
   "chef_type": "role",
   "run_list": [
     "recipe[sample]",
-    "recipe[rbenv::system]"
+    "recipe[rbenv::default]",
+    "recipe[rbenv::ruby_build]"
   ],
   "env_run_lists": {
   }
