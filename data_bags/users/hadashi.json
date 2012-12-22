@@ -1,7 +1,8 @@
 {
-  "id": "tyome",
-  "username": "tyome",
-  "comment": "tyome",
-  "system_user": false,
+  "id": "hadashi",
+  "username": "hadashi",
+  "comment": "hadashi",
+  "system_user": true,
+  "shel": "/usr/bin/zsh",
   "ssh_keys": ["ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIUGsIy0nJLbpoixCMnzko3zYJgDvP6gdo8W6YGeKrVMkc3nvDhW12oXL6t+as1fU0e56l1978Mfp1COG+y7eS8N1lUfz/FmaClOFuN0Pqk6uRa7qNgp1sHsoKHB5iTM0J2j3qbp0sD5y4QZXg/GYc04by3FabEOCkPnJqc349RBU7ATjWv/bDJnIcggwEpCbSUHNvpzJ+KemMbel6is99HLhXkx9Yozh4fvgNebAifI6D8D29Um0BWWFHH7lNlFPrhoqJZHwmFJO3D4FsXONQjs6r/4SB+XCTDM9SS9F1R5Mv4g8+V5WmFOdWZ7qLnSwMXo8OlRQs2tgEsJCPzNSL hadashi@mattaira.local"]
 }

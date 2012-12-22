@@ -1,0 +1,34 @@
+{
+  "name": "osx",
+  "description": "Max OSX setup role",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "rbenv": {
+      "user_installs": [
+        { "user": "hadashi",
+          "rubies": ["1.9.3-p327", "2.0.0-dev"],
+          "global": "2.0.0-dev",
+          "gems": {
+            "2.0.0-dev": [
+              { "name": "bundler" },
+              { "name": "rak" },
+              { "name": "pry" },
+              { "name": "pry-doc" },
+              { "name": "rcodetools" },
+              { "name": "devel-which" },
+              { "name": "rspec" }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[rbenv::user]"
+  ],
+  "env_run_lists": {
+  }
+}
