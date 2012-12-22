@@ -13,8 +13,9 @@ site 'http://community.opscode.com/api/v1'
 # cookbook 'postgresql',
 #   :git => 'https://github.com/findsyou/cookbooks',
 #   :ref => 'postgresql-improvements'
+cookbook 'homebrew'
 cookbook 'user'
 cookbook 'zsh'
 cookbook 'vim'
-cookbook 'gitlab'
 cookbook 'rbenv', :git => 'git://github.com/fnichol/chef-rbenv.git'#, :ref => 'v0.7.0'
+cookbook 'gitlab'
