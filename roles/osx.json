@@ -4,6 +4,7 @@
   "json_class": "Chef::Role",
   "default_attributes": {
     "rbenv": {
+      "create_profiled": false,
       "user_installs": [
         { "user": "hadashi",
           "rubies": ["1.9.3-p327", "2.0.0-dev"],
@@ -27,6 +28,8 @@
   },
   "chef_type": "role",
   "run_list": [
+    "recipe[homebrew]",
+    "recipe[ruby_build]",
     "recipe[rbenv::user]"
   ],
   "env_run_lists": {
