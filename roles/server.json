@@ -6,6 +6,8 @@
     "users": ["hadashi", "tyome"],
     "authorization": {
       "sudo": {
+        "include_sudoers_d": true,
+        "passwordless": true,
         "groups": ["admin"],
         "users": ["hadashi"]
       }

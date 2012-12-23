@@ -1,6 +1,7 @@
 {
   "id": "hadashi",
   "username": "hadashi",
+  "groups": ["admin"],
   "comment": "hadashi",
   "system_user": true,
   "shel": "/usr/bin/zsh",
