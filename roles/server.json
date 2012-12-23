@@ -4,6 +4,12 @@
   "json_class": "Chef::Role",
   "default_attributes": {
     "users": ["hadashi", "tyome"],
+    "authorization": {
+      "sudo": {
+        "groups": ["admin"],
+        "users": ["hadashi"]
+      }
+    },
     "rbenv": {
       "git_ref": "master",
       "install_prefix": "/usr/local",
@@ -25,7 +31,8 @@
     "recipe[vim]",
     "recipe[ruby_build]",
     "recipe[rbenv::system]",
-    "recipe[user::data_bag]"
+    "recipe[user::data_bag]",
+    "recipe[sudo]"
   ],
   "env_run_lists": {
   }
