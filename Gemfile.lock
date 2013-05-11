@@ -88,6 +88,7 @@ GEM
     popen4 (0.1.2)
       Platform (>= 0.4.0)
       open4 (>= 0.4.0)
+    rake (10.0.4)
     rest-client (1.6.7)
       mime-types (>= 1.16)
     ruby-hmac (0.4.0)
@@ -120,5 +121,6 @@ DEPENDENCIES
   knife-ec2
   knife-solo
   librarian-chef
+  rake
   sahara
   vagrant

@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem "rake"
 gem "chef"
 gem "librarian-chef"
 gem "knife-solo"
