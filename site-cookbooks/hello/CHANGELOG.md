@@ -1,12 +1,12 @@
-# CHANGELOG for development
+# CHANGELOG for hello
 
-This file is used to list changes made in each version of development.
+This file is used to list changes made in each version of hello.
 
 ## 0.1.0:
 
-* Initial release of development
+* Initial release of hello
 
-- - - 
+- - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
 
 The [Github Flavored Markdown page](http://github.github.com/github-flavored-markdown/) describes the differences between markdown on github and standard markdown.

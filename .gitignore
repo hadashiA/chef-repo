@@ -5,3 +5,4 @@
 .*.sw[a-z]
 tmp
 vendor/*
+cookbooks/*
