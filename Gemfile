@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "chef"
-gem "librarian"
+gem "librarian-chef"
 gem "knife-ec2"
 gem "vagrant"
 gem "sahara"
