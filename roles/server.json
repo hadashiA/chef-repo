@@ -15,11 +15,11 @@
     "rbenv": {
       "git_ref": "master",
       "install_prefix": "/usr/local",
-      "rubies": ["1.9.3-p327"],
-      "global": "1.9.3-p327"
+      "rubies": ["2.0.0-p0"],
+      "global": "2.0.0-p0"
     },
     "gems": {
-      "1.9.3-p327": [
+      "2.0.0-p0": [
         { "name": "bundler" }
       ]
     }
