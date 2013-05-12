@@ -1,6 +1,7 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
+    apt (1.9.2)
     build-essential (1.4.0)
     chef_handler (1.1.4)
     dmg (1.1.0)
@@ -28,6 +29,13 @@ SITE
     mysql (3.0.0)
       build-essential (>= 0.0.0)
       openssl (>= 0.0.0)
+    nginx (1.6.0)
+      apt (>= 0.0.0)
+      build-essential (>= 0.0.0)
+      ohai (>= 1.1.4)
+      runit (>= 0.0.0)
+      yum (>= 0.0.0)
+    ohai (1.1.8)
     openssh (1.1.4)
     openssl (1.0.2)
     perl (1.1.0)
@@ -68,6 +76,7 @@ DEPENDENCIES
   gitlab (>= 0)
   homebrew (>= 0)
   mysql (>= 0)
+  nginx (>= 0)
   postfix (>= 0)
   rbenv (>= 0)
   user (>= 0)

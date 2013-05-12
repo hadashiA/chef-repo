@@ -11,17 +11,6 @@
         "groups": ["admin"],
         "users": ["hadashi"]
       }
-    },
-    "rbenv": {
-      "git_ref": "master",
-      "install_prefix": "/usr/local",
-      "rubies": ["2.0.0-p0"],
-      "global": "2.0.0-p0"
-    },
-    "gems": {
-      "2.0.0-p0": [
-        { "name": "bundler" }
-      ]
     }
   },
   "override_attributes": {
