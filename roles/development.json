@@ -1,0 +1,35 @@
+{
+  "name": "development",
+  "description": "as development machine.",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "rbenv": {
+      "git_ref": "master",
+      "user_installs": [
+        { 'user': 'hadashi',
+          'rubies': ['2.0.0-p195'],
+          'global': '2.0.0-p195',
+          'gems': {
+            '2.0.0-p195'    => [
+              { 'name'    => 'bundler'},
+              { 'name'    => 'rake'},
+              { 'name'    => 'rcodetools'},
+              { 'name'    => 'pry'},
+              { 'name'    => 'pry-doc'},
+              { 'name'    => 'devel-which'},
+              { 'name'    => 'rak'}
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[rbenv::user_install]",
+  ],
+  "env_run_lists": {
+  }
+}

@@ -1,1 +1,1 @@
-{"run_list":["role[server]", "recipe[webistrano]"]}
+{"run_list":["role[server]", "recipe[nginx:source]"]}

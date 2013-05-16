@@ -1,1 +1,1 @@
-{"run_list": ["recipe[development]", "recipe[rbenv::user_install]"]}
+{"run_list": ["role[development]"]}
