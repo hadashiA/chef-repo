@@ -1,0 +1,30 @@
+{
+  "name": "ruby",
+  "description": "applied to ruby nodes.",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "rbenv": {
+      "git_ref": "master",
+      'rubies': ['2.0.0-p195'],
+      'global': '2.0.0-p195',
+      'gems': {
+        '2.0.0-p195'    => [
+          { 'name'    => 'bundler'},
+          { 'name'    => 'rake'},
+          { 'name'    => 'pry'},
+          { 'name'    => 'pry-doc'},
+          { 'name'    => 'rak'}
+        ]
+      }
+    }
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[ruby_build]",
+    "recipe[rbenv::system]",
+  ],
+  "env_run_lists": {
+  }
+}

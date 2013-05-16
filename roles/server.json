@@ -11,9 +11,6 @@
         "groups": ["admin"],
         "users": ["hadashi"]
       }
-    },
-    "rbenv": {
-      "git_ref": "master"
     }
   },
   "override_attributes": {
@@ -24,8 +21,6 @@
     "recipe[git]",
     "recipe[zsh]",
     "recipe[vim]",
-    "recipe[ruby_build]",
-    "recipe[rbenv::system]",
     "recipe[user::data_bag]",
     "recipe[sudo]"
   ],
